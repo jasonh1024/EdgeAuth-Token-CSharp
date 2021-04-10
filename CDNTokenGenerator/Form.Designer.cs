@@ -125,7 +125,7 @@
             this.tbxCDNLink.Name = "tbxCDNLink";
             this.tbxCDNLink.Size = new System.Drawing.Size(191, 20);
             this.tbxCDNLink.TabIndex = 7;
-            this.tbxCDNLink.Text = "https://cdnlab01.akamaized.net";
+            this.tbxCDNLink.Text = "https://test1.akamaized.net";
             this.tbxCDNLink.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // tbxFilePath
@@ -260,7 +260,7 @@
             this.tbxOrigin.Name = "tbxOrigin";
             this.tbxOrigin.Size = new System.Drawing.Size(191, 20);
             this.tbxOrigin.TabIndex = 13;
-            this.tbxOrigin.Text = "https://cdnorigin.airwlab.com";
+            this.tbxOrigin.Text = "https://cdnorigin.domain.com";
             // 
             // progressBar
             // 
