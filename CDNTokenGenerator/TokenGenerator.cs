@@ -13,8 +13,8 @@ namespace CDNTokenGenerator
         {
             var tokenConfig = new AkamaiTokenConfig
             {
-                EndTime = DateTimeOffset.Now.AddMinutes(+5).ToUnixTimeSeconds(), // Time to live (in seconds)
-                //StartTime = DateTimeOffset.Now.AddMinutes(-5).ToUnixTimeSeconds(), //time to start in seconds
+                //EndTime = DateTimeOffset.Now.AddMinutes(+5).ToUnixTimeSeconds(), // Time to live (in seconds)
+                StartTime = DateTimeOffset.Now.AddMinutes(-5).ToUnixTimeSeconds(), //time to start in seconds
                 Window=window,
                 Acl = acl, // Access control list containing token permissions
                 Key = key // Encryption key
